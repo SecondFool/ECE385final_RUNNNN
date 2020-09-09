@@ -1,0 +1,7 @@
+modyule number (input [9:0] pX,
+				input [9:0] pY,
+				input [7:0] num,
+				output logic BW);
+	logic
+				
+endmodule

@@ -1,0 +1,19 @@
+module player1(input [9:0] pX,
+				input [9:0] pY,
+				output logic [2:0] cidx
+				);
+			
+	
+	logic [2:0] IMG [899:0] = '{};	
+	logic [9:0] idx;
+	assign idx = pY*30 + pX;
+	assign cidx = IMG[idx];
+endmodule
+
+module isplayer(input [9:0] pX,
+				input [9:0] pY,
+				input [9:0] DrawX,
+				input [9:0] DrawY,
+				output logic isp
+	);
+	logic

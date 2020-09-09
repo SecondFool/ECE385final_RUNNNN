@@ -1,0 +1,19 @@
+module pallete (input [3:0] cidx,
+					output logic [7:0] Red, Green, Blue)
+	always_comb
+		begin	
+			case(cidx)
+				4'b0001:
+					begin
+						Red = 8'h00;
+						Green = 8'h20;
+						Blue = 8'h00;
+					end
+				default:
+					begin
+					end
+		end
+					
+					
+endmodule					
+					

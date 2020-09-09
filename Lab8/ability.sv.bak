@@ -1,0 +1,7 @@
+module ability{input [9:0] aX,
+					input [9:0] aY,
+					input [1:0] aidx,
+					output logic [2:0] BWY
+};
+
+endmodule

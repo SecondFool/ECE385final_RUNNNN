@@ -1,0 +1,7 @@
+module wall(input [9:0] positionX,
+				input [9:0] positionY,
+				input [9:0] wallX,
+				input [9:0] wallY,
+				output logic [99:0] cidx
+				)
+	
